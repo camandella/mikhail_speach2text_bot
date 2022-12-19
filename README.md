@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a db-free application: you needn't configure any database credentials.
 
-Things you may want to cover:
+Just create and populate `.env` file.
 
-* Ruby version
+## Then:
 
-* System dependencies
+Run server:
 
-* Configuration
+> rails s
 
-* Database creation
+Start bot service:
 
-* Database initialization
+> http://localhost:3000/start
 
-* How to run the test suite
+Stop bot service:
 
-* Services (job queues, cache servers, search engines, etc.)
+> http://localhost:3000/stop
 
-* Deployment instructions
+Check bot service state:
 
-* ...
+> http://localhost:3000/state
